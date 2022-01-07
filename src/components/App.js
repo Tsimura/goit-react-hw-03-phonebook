@@ -66,7 +66,7 @@ class App extends Component {
     return (
       <AppWrapper>
         <WorkingSpace>
-          <h1>Phonebook_#3</h1>
+          <h1>Phonebook</h1>
           <ContactForm onSubmit={this.addContact} />
           <h2>Contacts</h2>
           <Filter value={filter} onChangeFilter={this.changeFilter} />
